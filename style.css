@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ysabeau Office', sans-serif;
+    background-color: ghostwhite;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+#imgContatos {
+    height: 35px;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+form input {
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+#inpNome {
+    margin-right: 10px;
+}
+
+#btnAdd {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#imgAdd {
+    padding: 5px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+table th {
+    padding: 5px 100px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+}
+
+table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
