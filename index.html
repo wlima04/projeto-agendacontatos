@@ -9,20 +9,20 @@
 <body>
     <div class="container">
         <h1><img src="./images/icon-agenda.png" id="imgContatos" alt="Icone agenda de contatos">Agenda de Contatos</h1>
-        <form>
-            <input type="text" id="inpNome" placeholder="Nome">
-            <input type="text" id="inpNumero" placeholder="Número">
+        <form id="form">
+            <input type="text" id="inpNome" required placeholder="Nome">
+            <input type="number" id="inpNumero" required placeholder="Número">
             <br>
             <button type="submit" id="btnAdd"><img src="./images/icon-add-g.png" id="imgAdd" alt="Adicionar novo contato"></button>
         </form>
-        <table>
+        <table cellspacing="0">
             <thead>
                 <tr>
                     <th>NOME</th>
                     <th>NÚMERO</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="corpoTabela">
                 <tr>
                     <td>-</td>
                     <td>-</td>

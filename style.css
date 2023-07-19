@@ -19,7 +19,7 @@ h1 {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 #imgContatos {
@@ -43,15 +43,32 @@ form input {
     margin-right: 10px;
 }
 
+#inpNumero::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 #btnAdd {
     border-radius: 10px;
     cursor: pointer;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+#btnAdd:hover {
+    opacity: 0.75;
+    transition: 0.4s;
+    border: 2px solid rgb(26, 112, 26);
 }
 
 #imgAdd {
     padding: 5px;
     height: 50px;
     border-radius: 10px;
+}
+
+table {
+    margin-bottom: 50px;
 }
 
 table th {
